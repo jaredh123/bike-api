@@ -7,11 +7,32 @@
       <div class="jumbotron">
         <h1>Find your stolen bike!</h1>
       </div>
-      <form id="bike-form">
-        <label for="color">Enter color:</label>
-        <input id="color" placeholder="Black" type="text" required>
-        <button type="submit">Create</button>
-      </form>
+
+      <div class="row">
+        <div class="well col sm">
+          <form id="color-form">
+            <label for="color">Enter color:</label>
+            <input id="color" placeholder="Black" type="text" required>
+            <br>
+            <label for="count">Enter amount:</label>
+            <input id="count" placeholder="2" type="text" >
+            <br>
+            <button type="submit">Create</button>
+          </form>
+        </div>
+        <div class="well col sm">
+          <form id="location-form">
+            <label for="location">Enter location:</label>
+            <input id="location" placeholder="Seattle" type="text" required>
+            <br>
+            <label for="count">Enter amount:</label>
+            <input id="count" placeholder="2" type="text">
+            <br>
+            <button type="submit">Create</button>
+          </form>
+        </div>
+      </div>
+
 
       <h2 class="error"></h2>
 
